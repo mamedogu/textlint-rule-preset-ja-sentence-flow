@@ -1,0 +1,37 @@
+{
+  "name": "textlint-rule-preset-ja-sentence-flow",
+  "version": "0.4.0",
+  "private": true,
+  "description": "文章の3つの決まり（短い文の連続、予告の文、文頭の接続詞）を指摘する textlint の規則集。4つ目の母数のない数字は試験中で、既定では無効",
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": "まめどうぐ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamedogu/textlint-rule-preset-ja-sentence-flow.git"
+  },
+  "homepage": "https://github.com/mamedogu/textlint-rule-preset-ja-sentence-flow#readme",
+  "bugs": {
+    "url": "https://github.com/mamedogu/textlint-rule-preset-ja-sentence-flow/issues"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "sentence-splitter": "^5.0.1",
+    "textlint-util-to-string": "^3.3.4"
+  },
+  "devDependencies": {
+    "@textlint/config-loader": "15.8.0",
+    "@textlint/kernel": "15.8.0",
+    "@textlint/textlint-plugin-markdown": "15.8.0",
+    "textlint": "^15.8.0",
+    "textlint-tester": "^15.8.0"
+  },
+  "peerDependencies": {
+    "textlint": ">=15"
+  }
+}
