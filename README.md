@@ -24,7 +24,7 @@
 npm には公開していません。GitHub から直接入れます。textlint 15 系と Node.js 20 以上が要ります（0.4.0 のテストは textlint 15.8.0 と Node.js 24 で流しました）。
 
 ```sh
-npm install --save-dev textlint@15 github:mamedogu/textlint-rule-preset-ja-sentence-flow
+npm install --save-dev textlint@15 github:mamedogu/textlint-rule-preset-ja-sentence-flow#v0.4.0
 ```
 
 ## .textlintrc の例
